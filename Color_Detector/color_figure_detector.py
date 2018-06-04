@@ -166,7 +166,7 @@ def main(datapath,color):
         else:
             retorno=color_detector(range_color,frame,color[x])
             
-    cv2.imwrite('MyPic.jpg', retorno)     
+    cv2.imwrite(datapath, retorno)     
             
     return retorno
 
