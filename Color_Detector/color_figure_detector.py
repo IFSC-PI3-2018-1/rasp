@@ -173,8 +173,3 @@ def main(datapath,color):
 datapath = "images.jpg" #localização da imagem
 color = ["azul", "verde"] # sequ   
 retorno = main(datapath,color)
-        
-cv2.imshow('Cor detectada', retorno)   
-cv2.waitKey()
-cv2.destroyAllWindows()
-l
